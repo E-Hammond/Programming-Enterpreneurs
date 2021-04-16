@@ -1,0 +1,56 @@
+body {
+    font-family: helvetica;
+}
+
+#header {
+    background-color:greenyellow;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+h1 {
+    float: left;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.row {
+    margin: 10px 20px;
+}
+
+#results {
+    margin: 30px 20px 10px 0px;
+}
+
+.person-row {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #cdfd5c;
+    width: 100%;
+    float: left;
+}
+
+.person-row img {
+    float: left;
+    margin-right: 20px;
+}
+
+.personal-info {
+    float: left;
+}
+
+.person-row > button {
+   float: right; 
+}
+
+#searchBtn{
+    background-color: #cdfd5c;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
