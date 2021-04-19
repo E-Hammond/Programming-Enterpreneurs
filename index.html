@@ -8,7 +8,9 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div id="header"><h1>Zenva Love</h1></div>
+        <div id="header"><h1>Filter Game</h1></div>
+        <br>
+        <p ><em>Note: You can only search for hobbies such as pets, reading, sports, shopping and music.</em>  </p>
         <div id="main">
             <div class="row">
                 <div class="row">
@@ -24,10 +26,22 @@
                     <input type="text" id="hobby" />
                 </div>
                 <div class="row">
+                    <label>Minimum Age</label>
+                    <input type="number" id="minAge" />
+                </div>
+                <div class="row">
+                    <label>Maximum Age</label>
+                    <input type="number" id="maxAge" />
+                </div>
+                <div class="row">
                     <button id="searchBtn">Search</button>
                 </div>
+                
             </div>
-            <div id="results">
+            <div class="resultsContainer">
+                <div id="results"></div>
+            </div>
+            
                 
             </div>
         </div>

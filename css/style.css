@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-    background-color:greenyellow;
+    background-color:rgb(70, 70, 240);
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -18,20 +18,51 @@ h1 {
     font-size: 30px;
 }
 
+input{
+    border-radius: 5px;
+    background-color: rgb(136, 136, 255);
+    color: white;
+    font-weight: bold
+}
+
+button{
+    border-radius: 5px ;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px rgb(32, 32, 32);
+}
+
 .row {
     margin: 10px 20px;
+    display: inline-block;
 }
 
 #results {
     margin: 30px 20px 10px 0px;
+    /* padding: 20px; */
 }
 
+p{
+    margin-left: 40px;
+    font-style: italic;
+}
+
+/* .resultsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
 .person-row {
-    margin: 10px 0px;
+    margin: 12px ;
     padding: 10px;
-    background-color: #cdfd5c;
-    width: 100%;
+    background-color: rgb(70, 70, 240);
+    width: 30%;
     float: left;
+    border: 1px solid black;
+    border-radius: 0 35px 35px 0;
+    color: white;
 }
 
 .person-row img {
@@ -48,8 +79,8 @@ h1 {
 }
 
 #searchBtn{
-    background-color: #cdfd5c;
-    color: black;
+    background-color: rgb(70, 70, 240);
+    color: white;
     font-weight: bolder;
     padding: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

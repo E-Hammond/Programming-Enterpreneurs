@@ -3,43 +3,50 @@ var users = [
         name: 'Lucy',
         gender: 'F',
         hobby: 'pets',
-        avatar: 'avatar1.png'        
+        avatar: 'avatar1.png',
+        age: '5'        
     },
     {
         name: 'Betty',
         gender: 'F',
         hobby: 'pets',
-        avatar: 'avatar2.png'
+        avatar: 'avatar2.png',
+        age: '25'
     },
     {
         name: 'Ronald',
         gender: 'M',
         hobby: 'music',
-        avatar: 'avatar3.png'
+        avatar: 'avatar3.png',
+        age: '15'
     },
     {
         name: 'Christopher',
         gender: 'M',
         hobby: 'sports',
-        avatar: 'avatar4.png'
+        avatar: 'avatar4.png',
+        age: '20'
     },
     {
         name: 'Ximena',
         gender: 'F',
         hobby: 'reading',
-        avatar: 'avatar5.png'
+        avatar: 'avatar5.png',
+        age: '10'
     },
     {
         name: 'Paul',
         gender: 'M',
         hobby: 'shopping',
-        avatar: 'avatar6.png'
+        avatar: 'avatar6.png',
+        age: '35'
     },
     {
         name: 'Charlie',
         gender: 'M',
         hobby: 'pets',
-        avatar: 'avatar7.png'
+        avatar: 'avatar7.png',
+        age: '30'
     },
 ];
 
@@ -70,13 +77,15 @@ window.addEventListener('load', function() {
                            <img src="images/' + users[i].avatar + '" />\
                            <div class="person-info">\
                            <div>' + users[i].name + '</div>\
+                           <div>' + users[i].age + '</div>\
                            <div>' + users[i].hobby + '</div></div>\
-                            <button>Add as friend</button></div>';  
+                            <button>Add as friend</button></div>'  
                 }
             }
         }
         
         results.innerHTML = resultsHtml;
+        
     }
     
     var searchBtn = document.getElementById('searchBtn');
